@@ -1,0 +1,11 @@
+<ul class="books-list">
+  <li *ngFor="let book of bookList.allBooks" class="books-list__item">
+    <app-book-item [book]="book" [btnClick]="bookList.addToMyBooks.bind(bookList)" [btnMessage]="'Add'"></app-book-item>
+  </li>
+</ul>
+
+<ul class="books-list">
+  <li *ngFor="let book of bookList.myBooks" class="books-list__item">
+    <app-book-item [book]="book" [btnClick]="bookList.removeFromMyBooks.bind(bookList)" [btnMessage]="'Remove'"></app-book-item>
+  </li>
+</ul>

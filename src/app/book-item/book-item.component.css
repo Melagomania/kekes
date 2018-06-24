@@ -1,0 +1,27 @@
+.book__inner-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.book__description {
+  width: 65%;
+}
+
+.book__image {
+  width: 30%;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.book__button {
+  display: block;
+  width: 100%;
+}
